@@ -251,8 +251,6 @@ footer{
     }
     .logo__container{
         display: flex;
-        
-        justify-content: ;
         flex-direction: column;
         margin-top: 20px;
         
@@ -271,15 +269,12 @@ footer{
         top: 47.5px;
     }
     .container__ul{ 
-        
-        width:;
         height: 40px;
         display: flex;
         justify-content: space-around;
         align-items: center;
         margin-right: 20px;
         padding: 10px;
-        
     }
     .nav__li{
         font-size:18px ;
