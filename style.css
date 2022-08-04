@@ -40,7 +40,7 @@ footer{
     justify-content: center;
     flex-direction: column;
     margin-top: 20px;
-    align-items: center;
+    align-items:flex-start; ;
 }
 .logo-1{
 
@@ -338,13 +338,15 @@ footer{
         margin: -5px 10px 0px 20px;
         line-height: 25px;
     }
-    .container__ul:hover a{
+    .container__ul:hover {
         color:red;
     }
     .nav__label{
         display: block;
         cursor: pointer;
         color: black;
+        text-align: end;
+        font-size: 25px;
     }
     
     .boton:checked + .container__ul{	
@@ -352,7 +354,9 @@ footer{
         animation:fadeIn 1s;
         width: 50%;
         height: 70px;
-        
+        text-align: center;
+        margin: 5px -10px 0px 0px ;
+        padding: 0px 0px 0px 0px;
     }
     @keyframes fadeIn {
         from {
