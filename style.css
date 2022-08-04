@@ -338,8 +338,8 @@ footer{
         margin: -5px 10px 0px 20px;
         line-height: 25px;
     }
-    .container__ul:hover {
-        color:red;
+    .nav__li:hover a {
+        color:#fff;
     }
     .nav__label{
         display: block;
