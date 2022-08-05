@@ -388,7 +388,7 @@ footer{
     }
     .boton:checked + .container__ul{	
         position: fixed;
-        top: 80px;
+        top: 110px;
         bottom: 0px;
         background-color: #e27be3;
         width: 100%;
