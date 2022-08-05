@@ -17,7 +17,6 @@ body{
 header{
     grid-row: 1 / 2;
     grid-column: 1 / 4;
-    background-color: ;
     background-color: blueviolet;
 }
 section{
@@ -39,7 +38,7 @@ footer{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin:35px 50px ;
     align-items:flex-start; ;
 }
 .logo-1{
@@ -50,10 +49,10 @@ footer{
 }
 .nav{
     background-color: aqua;
-    width: 25%;
+    width: 31%;
     position: absolute;
-    right: 0px;
-    top: 50px;
+    right: 20px;
+    top: 35px;
 }
 .container__ul{ 
     min-width: 95.5%;
@@ -70,11 +69,54 @@ footer{
     color: black;
 }
 .nav__li:hover a{
-    color:violet;
+    color:#e27be3;
 }
-a:visited{
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    align-items: ;
+    padding: 15px;
+}
+.section h1{
+    font-size: 30px;
+    font-weight: bold;
     color: black;
 }
+.container-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 275px;
+    grid-gap: 10px;
+    margin: 10px;
+}
+.container-img h4{
+    grid-column: 3/ 3;
+    grid-row: 2 / 2;
+}
+.container-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container-img img:hover{
+    transform: scale(1.1);
+}
+.span{
+    font-size: 20px;
+}
+.container-img  .span a{
+    color: #9a00f7;
+}
+.container-img  .span a:visited{
+    color: #502364;
+}
+.container-img  .span a:hover{
+    color: #e27be3;
+}
+
+
 /*
 .boton{
     display: none;
@@ -252,8 +294,7 @@ footer{
     .logo__container{
         display: flex;
         flex-direction: column;
-        margin-top: 20px;
-        
+        margin:47px 0px;
     }
     .logo-1{
     
@@ -343,12 +384,12 @@ footer{
         text-align: end;
         font-size: 25px;
     }
-    
+    .boton:checked
     .boton:checked + .container__ul{	
         display: block;
         animation:fadeIn 1s;
-        width: 50%;
-        height: 70px;
+        width: 100%;
+        height: 100%;
         text-align: center;
         margin: 5px -10px 0px 0px ;
         padding: 0px 0px 0px 0px;
