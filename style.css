@@ -148,7 +148,7 @@ footer{
 
 .container-img img:hover{
     transform: scale(1.2);
-    object-fit: fill;
+    
 }
 .container-img img:first-child{
     grid-column: 2 / 2;
