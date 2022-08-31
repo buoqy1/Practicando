@@ -9,7 +9,9 @@ a, li{
 }
 
 body{
-    height: 120vh;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
 }
 header{
     background-color: #ee82ee;
@@ -45,7 +47,7 @@ header{
 }
 .logo-1{
     color: #fff;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 30px;
 }
@@ -97,6 +99,8 @@ header{
     flex-wrap: wrap;
     margin:auto;
     justify-content: center;
+    width: 95%;
+    margin-top: 0px;
 }
 .form{
     margin-top: 100px;
@@ -155,13 +159,12 @@ header{
 }
 textarea::placeholder{
     color: #000;
-    padding-top: 10px;
+    padding-top: 3px;
     font-weight: 500;
 }
 .footer{
-    position:absolute;
-    bottom: -20vh;
-    margin-top: 200px;
+    position:relative;
+    bottom: -10vh;
     width: 100%;
     height: 100px;
     background-color: #00ffff;
@@ -413,6 +416,7 @@ textarea::placeholder{
     }
     .logo-1{
         color: #fff;
+        margin-top: -0px;
     }
     .logo-2{
         margin-left: 50px;
@@ -462,6 +466,7 @@ textarea::placeholder{
         display: flex;
         justify-content: flex-start;
         margin-left: 100px;
+        margin-top: 0px;
     }
     .form{
         margin-top: 100px;
@@ -500,10 +505,7 @@ textarea::placeholder{
         border-bottom: #000 2px solid;
         height: 50px;
     }
-    .form-input:placeholder{
-        background-color: #fff;
-        padding-left: 10px;
-    }
+    
     .form-input:focus{
         outline: none;
     }
@@ -529,11 +531,11 @@ textarea::placeholder{
 
 
     .footer{
-        position:absolute;
-        bottom: -20vh;
+        position:relative;
+        bottom: -0vh;
         margin-top: 200px;
         width: 100%;
-        height: 100px;
+        height: 125px;
         background-color: #00ffff;
     }
     .icons{
@@ -542,16 +544,17 @@ textarea::placeholder{
         justify-content: center;
         align-items: center;
         height: 60px;
+        margin-top: 10px;
     }
     .icon{
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
         text-decoration: none;
         color: #fff;
-        font-size:25px;
+        font-size:30px;
         border-radius: 50%;
         outline: 2px solid #fff;
         transition-property: outline-offset, outline-color,background-color ;
@@ -583,7 +586,7 @@ textarea::placeholder{
 
     .footer-data h4{
         text-align: center;
-        margin-top: 10px;
+        margin-top: 30px;
     }
 
     @keyframes shake {
